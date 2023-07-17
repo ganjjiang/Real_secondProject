@@ -86,7 +86,7 @@
 	 let planseq = $('#planseq').val();
 	 let regdate = $('.regdate').val();
 	 let diary_title = $('.diary_title').val();
-	 let diary_text = $('.diary_text').text();
+	 let diary_text = $('.diary_text').val();
 	 let diary_seq = $('#diary_seq').val(); 
 	 
 	 //alert(diary_text);
@@ -198,7 +198,7 @@
                <div class="total_btns">
                 <div>
 					<input type="submit" id="insertBtn" value="저장">
-					<input type="reset" id="resetBtn" value="초기화 ">			
+							
 				</div>
             </form>
             <div class="diary_btn_container">
@@ -252,7 +252,7 @@
                 <div class="total_btns">
                 <div>
 					<input type="button"  id="insertBtn" value="저장">
-					<input type="reset"  id="resetBtn" value="초기화 ">			
+							
 				</div>
             </form>
             <div class="diary_btn_container" >

@@ -21,8 +21,8 @@
 
     <!--header start-->
            <div class="header">
-            <div  class="logo">
-                <a th:href="@{/}"  class="logo">TRIPCORD</a>
+            <div class="logo">
+                <a th:href="@{/}"><img class="logoimage"  alt=""></a>
             </div><!--end.logo-->
             <div class="menubar">
                 <ul>
@@ -56,24 +56,26 @@
 				<input type="submit"  id="submitBtn" value="로그인하기">
 			</div>
 	</form>     
-	<!--footer start-->
-        <div class="footer">
-            <div class="footer-menu">
-                <ul>
-                    <li><a th:href="@{/}">Home</a></li>
-                    <li><a th:href="@{/service/mapService}">Map Service</a></li>
-                    <li><a th:href="@{/service/bankService}">Rate of Exchange calculator </a></li>
-                </ul>
-            </div>
-            <div class="footer-content">
-                <p class="border-bottom">&copy; 2023 FX predict. All Rights Reserved.</p>
+	<!-- Footer -->
+	</div> <!--end of  login wrapper -->
+    <div class="footer"> 
+        <div class="footer-menu">
+            <ul>
+                <li><a th:href="@{/}">Home</a></li>
+                <li><a th:href="@{/service/bankService}">Bank Service</a></li>
+                <li><a th:href="@{/service/mapService}">Map Service</a></li>
+            </ul>
+        </div>
+        <div class="footer-content">
+            <p class="border-bottom">&copy; 2023 FX predict. All Rights Reserved.</p>
                 <div class="btn-social">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fa-facebook"></i></a>
+                    <a href="#"><i class="fa-twitter"></i></a>
+                    <a href="#"><i class="fa-instagram"></i></a>
                 </div>
             </div>
-        </div><!--end.footer-->
+        </div>
+    </div> <!-- end of footer-->
 
 </div><!-- end of wrapper-->
 </body>

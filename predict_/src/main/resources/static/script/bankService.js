@@ -97,10 +97,13 @@ function drawchart() {
         
        
 
-        root.dateFormatter.setAll({
-                dateFormat: "yyyy-MM-dd HH:mm:ss",
-                dateFields: ["valueX"]
-            });
+       // root.dateFormatter.setAll({
+       //         dateFormat: "HH:mm:ss",
+        //        dateFields: ["valueX"],
+                
+        //    });
+            
+ 
 
         //차트 생성 
         var chart = root.container.children.push(
@@ -135,12 +138,13 @@ function drawchart() {
 			  , data : {'chartname': chartname}
 			  ,success : function(data){
 				  
-        
+       
         
 		//x축 선 설정 
         var xRenderer = am5xy.AxisRendererX.new(root, {});
         xRenderer.grid.template.set("location", 0.5);
         xRenderer.labels.template.setAll({
+			minGridDistance: 50,
             location: 0.5,
             multiLocation: 0.5
         });
@@ -148,17 +152,33 @@ function drawchart() {
 		//X축 생성 
         var xAxis = chart.xAxes.push(
             am5xy.CategoryAxis.new(root, {
+				maxDeviation: 0.5,
                 categoryField: "rate_time",
                 baseInterval: { timeUnit: "day", count: 1 },
                 renderer: xRenderer,
+                
                 tooltip: am5.Tooltip.new(root, {})
             })
         );
+        
+        xRenderer.labels.template.setAll({
+  			oversizedBehavior: "wrap",
+  			textAlign: "left"
+		});
 		
+		xRenderer.labels.template.adapters.add("width", function(width, target) {
+ 			 var x0 = xAxis.getDataItemCoordinateY(xAxis.dataItems[0], "category", 0);
+  			 var x1 = xAxis.getDataItemCoordinateY(xAxis.dataItems[0], "category", 1);
+  			 target.set("maxWidth", x1 - x0)
+  			return x1 - x0;
+			});
 		//x축에 데이터 넣기 
         xAxis.data.setAll(data);
         
         
+        //xAxis.events.once("datavalidated", function(ev) {
+ 			// ev.target.zoomToIndexes(-1, 5);
+			//});
 
 		//Y축 생성 
         var yAxis = chart.yAxes.push(
