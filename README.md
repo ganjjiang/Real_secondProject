@@ -13,11 +13,11 @@
                
 ### (부조장) 이가은 
   - DB 테이블 설계
-  - 로그인/ 회원가입 javascript/jQuery 코드& 서버 코드 작성
-  - 플랜서비스 Frontend 코드 작성
-  - 다이어리 서비스 Frontend 코드 수정 & 서버 코드 작성
-  - 마이페이지 서비스 Frontend 코드 작성 & 서버 코드 작성
-  - 환율 서비스 Frontend 코드 수정 & 환율 그래프 javascript/jQuery 코드 & 서버 코드 작성 
+  - 로그인/ 회원가입 javascript/jQuery 코드& 서버 코드 작성 (predict_/src/main/resources/static/script/signup.js)
+  - 플랜서비스 Frontend 코드 작성 (predict_/src/main/resources/static/templates/service/planService.html)
+  - 다이어리 서비스 Frontend 코드 수정 & 서버 코드 작성 (predict_/src/main/resources/statictemplates/service/budgetService.html)
+  - 마이페이지 서비스 Frontend 코드 작성 & 서버 코드 작성 (predict_/src/main/resources/statictemplates/member/myPage.html) && (predict_/src/main/resources/static/script/budgetService.js)
+  - 환율 서비스 Frontend 코드 수정 & 환율 그래프 javascript/jQuery 코드 & 서버 코드 작성 (predict_/src/main/resources/statictemplates/member/bankService.html) && (predict_/src/main/resources/static/script/bankServiceStockChart.js) 
                    
 ### (조원) 정봉호 
   - 메인페이지 Frontend 코드 작성 predict_/src/main/resources/templates/index.html
