@@ -20,7 +20,7 @@
   - 환율 서비스 Frontend 코드 수정 & 환율 그래프 javascript/jQuery 코드 & 서버 코드 작성 
                    
 ### (조원) 정봉호 
-  - 메인페이지 Frontend 코드 작성
+  - 메인페이지 Frontend 코드 작성 predict_/src/main/resources/templates/index.html
   - 마이페이지 서비스 CSS 코드 수정
   - 발표 PPT / 대본 작성 
 
