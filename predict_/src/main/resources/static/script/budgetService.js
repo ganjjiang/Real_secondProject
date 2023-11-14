@@ -1,5 +1,5 @@
 /**
- * 
+ *  다이어리페이지 서비스 javasript && jQery 코드 작성 _ 작성자 : 이가은 
  */
 
  $(function(){
@@ -7,7 +7,7 @@
 	$('.day_select').on('change', init);
 	
 	
-
+	
 	$('.diary_upload_btn').on('click', updateDiary);
 	$('.diary_trash_btn').on('click', deleteDiary);
  })
@@ -111,7 +111,7 @@
  }
  
  
- //Dayone 먼저 출력 
+ //첫 요청_Day1 출력 요청 
  function init() {
 	 let daynum = $('.day_select').val();
 	 let planseq = $('#planseq').val();
@@ -132,7 +132,8 @@
 	 
 	 
  }
- 
+
+//다이어리 출력을 위한 조회
  function outputOnedayDiary(daynum, planseq) {
 	 
 	 //alert(daynum);
@@ -144,7 +145,8 @@
 			success : outputDiary
 		})
  }
- 
+
+//여행여정 출력을 위한 조회
  function outputOnedayPlan(daynum, planseq) {
 	 
 	 $.ajax({
@@ -156,7 +158,8 @@
 	 })
 	 
  }
- 
+
+//요청 여정에 대한 다이어리 출력
  function outputDiary(resp) {
 	 
 	 let tags = ``;
@@ -272,7 +275,7 @@
  
 
 
-
+//요청 여행여정에 대한 출력 
 function outputPlan(resp) {
 	if (resp==null){
 		alert("여행을 먼저 계획해주세요");
