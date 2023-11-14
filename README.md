@@ -1,5 +1,6 @@
 # Real_secondProject
 ## 2차 프로젝트 
+[프로젝트 제안서](https://drive.google.com/file/d/16KYSJFKgLk5pduRRAQI_2SGmaMQoxuBH/view?usp=drive_link)
   - 코로나 이후 여행을 가기위한 여행자들을 위한 웹페이지 개발
   - 각 화폐별 환율, 환전 정보 및 여행 전 계획 세우기부터 여행 후 가계부 기능까지 구현한 웹페이지
 
