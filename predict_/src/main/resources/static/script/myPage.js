@@ -1,3 +1,6 @@
+
+/*마이페이지 javascript && jQuery 코드 작성 _ 작성자 : 이가은 */
+
 let clickCount = 0;
  $(function(){
 	 
