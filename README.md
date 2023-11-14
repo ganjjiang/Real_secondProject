@@ -41,7 +41,7 @@
 
 ## 2차 프로젝트 발표 PPT 
 
-  [발표PPT](https://docs.google.com/presentation/d/1nEIptN0yceYttQ_7v2w-AYlG17sbpRbP/edit?usp=sharing&ouid=109969025433946755539&rtpof=true&sd=true)
+  [발표PPT](https://drive.google.com/file/d/19D08iQ_G_mM0ECwOxVJNLxCpd8Z6K6tB/view?usp=drive_link)
 
 
 ## 2차 프로젝트 웹페이지 시연영상 
