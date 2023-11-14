@@ -6,7 +6,7 @@
 ## 프로젝트 담당 업무 
 
 ### (조장) 최소현
-  - 각 화폐별 실시간 환율 크롤링(파이썬) => 깃허브 코드 첨부
+  - 각 화폐별 실시간 환율 크롤링(파이썬) => 깃허브 코드 첨부 [크롤링 코드](https://github.com/ganjjiang/Extrate-crawling-python-code.git)
   - Kakao map API를 활용한 내 주변 가까운 은행 찾기 기능 구현
   - Google map API를 활용한 여행지 계획세우기 기능 구현
   - 발표 PPT/ 대본 작성
