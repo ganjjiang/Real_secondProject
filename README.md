@@ -1,8 +1,39 @@
 # Real_secondProject
 ## 2차 프로젝트 
-[프로젝트 제안서](https://drive.google.com/file/d/16KYSJFKgLk5pduRRAQI_2SGmaMQoxuBH/view?usp=drive_link)
-  - 코로나 이후 여행을 가기위한 여행자들을 위한 웹페이지 개발
-  - 각 화폐별 환율, 환전 정보 및 여행 전 계획 세우기부터 여행 후 가계부 기능까지 구현한 웹페이지
+   - 코로나 이후 여행을 가기위한 여행자들을 위한 웹페이지 개발
+   
+## 프로젝트 기획 배경 및 목표
+환율은 수시로 변동되기 때문에 <b>실시간 데이터를 제공</b>하는 것은 중요합니다. 실시간으로 환율 정보
+를 크롤링하여 사용자들이 최신 정보에 접근할 수 있도록 웹서비스를 통해 <b>실시간 환율 정보를 제공
+하기 위해 이 프로젝트를 기획하게 됐습니다.</b>
+
+## 주요 기능 소개 
+### 환율 계산기 
+  사용자는 원하는 통화와 금액을 입력하고, 해당 통화에 대한 환율을 기준으로 다른 통화로 변환된 금액을
+확인할 수 있다.
+
+### 환전 가이드   
+  환전 가이드는 다양한 환전 서비스 제공하는 은행의 수수료와 환전율을 비교하여 사용자에게 정보를 제
+공한다.
+
+### 맵 서비스 
+  사용자의 위치정보를 받아 사용자 주변 환전, 송금이 가능한 은행 위치를 제공한다.
+
+### 추천 서비스
+  다양한 국가의 통화에 대한 정보를 제공합니다. 여행자들이 방문하는 국가의 통화를 파악하고 여행지에
+대한 정보를 제공합니다.
+
+## 개발 툴 및 사용 기술
+  ### 개발 툴
+    - Visual Studio Code
+    - Spring Tools 4
+    - Oracle SQL Developer
+    - Python
+
+  ### 사용 기술
+    - Python – BeautifulSoup (Web Crawling)
+    - Spring Tools 4 – MyBatis Framework(DB연동), Spring Security, Thymeleaf, Spring web, JavaScript, jQuery
+    - Visual Studio Code – HTML 문서 작성
 
 ## 프로젝트 담당 업무 
 
